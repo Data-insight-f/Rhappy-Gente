@@ -1,0 +1,8 @@
+# Abiente Virtual
+rhappy-gente-venv/
+
+# Arquivos de dados da companhia
+data/
+
+# cache do Python
+__pycache__
