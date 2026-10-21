@@ -22,6 +22,7 @@ Através da ingestão de planilhas padrão do sistema de RH, a aplicação reali
 - `colunas_modelo.joblib`: "Molde" de variáveis extraídas durante o treino para garantir consistência na inferência em produção.
 - `requirements.txt`: Relação de bibliotecas Python mapeadas para a implantação.
 - `Dockerfile` / `.dockerignore`: Configurações de imagem e containerização para garantir a portabilidade do ambiente entre desenvolvimento local (Ubuntu) e produção.
+- `notebooks`: Jupyter Notebooks contendo a fase de *Exploratory Data Analysis* (EDA) bruta que possua dados sensíveis.
 
 ### `/telas` (Front-end e Regras de Negócio)
 Contém os módulos de interface que são renderizados dinamicamente:
@@ -40,7 +41,6 @@ Contém as apresentações dos respectivos sprints(.pptx) entregues em cada etap
 Para manter a organização, conformidade com a LGPD e evitar conflitos, os seguintes arquivos não são versionados:
 
 - Planilhas em Excel (`.xlsx`) ou CSV contendo a base bruta de funcionários da Ri Happy.
-- Jupyter Notebooks contendo a fase de *Exploratory Data Analysis* (EDA) bruta que possua dados sensíveis.
 - Cache do Python (`__pycache__`).
 
 ---
